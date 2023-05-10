@@ -16,8 +16,12 @@ We used Python to create a machine-learning-powered Exercise Generation Framewor
 - Is the relevance and timeliness aspects considered?
 - Can all the above be automated?
 
-**Our Main Objective**
+**Our Main Objective:**
 Build an AI powered tool that can generate relevant and up-to-date Cyber Exercise Content in a few steps with little technical expertise from the user.
+
+## Realese Roadmap
+
+The updated project, AiCEF v.2.0 is planned to be publicly released by the end of 2023, pending heavy code review and functionality updates. Thank you for your patience. 
 
 ## Installation
 
