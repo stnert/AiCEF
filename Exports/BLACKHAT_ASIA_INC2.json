@@ -1,0 +1,364 @@
+{
+    "type": "bundle",
+    "id": "bundle--878dd62d-94e1-491e-8589-6757660ffe1c",
+    "objects": [
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--3deed99f-6859-4386-8e2a-0a28aaacb337",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-20T11:01:23.068577Z",
+            "name": "TURLA",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER CREDENTIALS, PRIVATE INFORMATION, EMAIL, ACCOUNT CREDENTIALS, DATA, ADDRESSES"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--3deed99f-6859-4386-8e2a-0a28aaacb337",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-20T11:01:23.068577Z",
+            "name": "TURLA",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER CREDENTIALS, PRIVATE INFORMATION, EMAIL, ACCOUNT CREDENTIALS, DATA, ADDRESSES"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--7e3bbdf1-5e27-43f8-b792-2e797f3c4d88",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-20T10:59:57.088399Z",
+            "name": "Attacker"
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0",
+            "created": "2023-04-19T12:13:38.508055Z",
+            "modified": "2023-04-20T11:01:23.068938Z",
+            "name": "BLACKHAT_ASIA_INC2",
+            "description": "\n\nCyber security incidents are on the rise, and targeted attacks on businesses and organizations are becoming increasingly more malicious. Vulnerabilities in networks, systems, software, and applications pose a major risk, as cyber criminals are leveraging phishing tactics to gain access and launch malicious file attacks. Spear phishing campaigns are becoming more sophisticated, and hackers are now using stolen credentials, SSH, proxies and domains to gain access to organizational networks and easily acquire email accounts.",
+            "goals": [
+                "USER CREDENTIALS, PRIVATE INFORMATION, EMAIL, ACCOUNT CREDENTIALS, DATA, ADDRESSES"
+            ]
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--08ed1400-9254-414c-90b0-928db03fb097",
+            "created": "2023-04-20T11:01:38.988727Z",
+            "modified": "2023-04-20T11:01:38.988727Z",
+            "abstract": "Training_Objectives",
+            "content": "PHISHING_SOCIAL_ENGINEERING",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2ed6926b-e4e1-41ca-b6ea-0b1f3ea9df42",
+            "created": "2023-04-20T11:01:38.988727Z",
+            "modified": "2023-04-20T11:01:38.988727Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--08ed1400-9254-414c-90b0-928db03fb097",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--a220db49-6593-4986-81dd-801716b48459",
+            "created": "2023-04-20T11:01:38.989724Z",
+            "modified": "2023-04-20T11:01:38.989724Z",
+            "abstract": "Resources",
+            "content": "['https://www.bleepingcomputer.com/news/security/north-korean-hackers-target-defense-industry-with-custom-malware/', 'https://www.zdnet.com/article/north-korean-hackers-launch-rokrat-trojan-in-campaigns-against-the-south/', 'https://www.zdnet.com/article/fbi-phishing-emails-are-spreading-this-sophisticated-malware/', 'https://www.bleepingcomputer.com/news/security/microsoft-code-sign-check-bypassed-to-drop-zloader-malware/', 'https://www.bleepingcomputer.com/news/security/ikea-email-systems-hit-by-ongoing-cyberattack/', 'https://www.bleepingcomputer.com/news/security/phishing-attacks-use-qr-codes-to-steal-banking-credentials/']",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aff9be9c-a59d-4e3c-9851-a2df1aa4f516",
+            "created": "2023-04-20T11:01:38.989724Z",
+            "modified": "2023-04-20T11:01:38.989724Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--a220db49-6593-4986-81dd-801716b48459",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "report",
+            "id": "report--9b6b49d2-ea1f-49e4-a5d2-794fc28bf487",
+            "created": "2023-04-20T11:01:41.565Z",
+            "modified": "2023-04-20T11:01:41.565Z",
+            "name": "News Item 0",
+            "description": "\n\nAlert: #EnergyCorp was a victim of a targeted attack, exploiting multiple vulnerabilities & phishing tactics. Time to stay vigilant & bolster cyber security measures to protect against future attacks. #cybersecurity #cyberattack #targetedattacks #vulnerabilities #phishing",
+            "published": "2023-04-20T14:01:41.56513Z",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c43e33bb-71aa-4884-b01e-b5881b9593af",
+            "created": "2023-04-20T11:01:41.566084Z",
+            "modified": "2023-04-20T11:01:41.566084Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--9b6b49d2-ea1f-49e4-a5d2-794fc28bf487",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "report",
+            "id": "report--a660bb8a-2d8a-4498-876c-bf1aa712ceb7",
+            "created": "2023-04-20T11:01:46.071Z",
+            "modified": "2023-04-20T11:01:46.071Z",
+            "name": "News Item 1",
+            "description": "\n\nEnergyCorp was recently the victim of a targeted cyber attack exploiting several vulnerabilities. The attack was likely due to a phishing scam that tricked users into surrendering their sensitive account information. #CyberAttack #TargetedAttacks #Vulnerabilities #Phishing",
+            "published": "2023-04-20T14:01:46.071143Z",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d7451236-f4ce-4141-8d7b-944cb2e747ec",
+            "created": "2023-04-20T11:01:46.072138Z",
+            "modified": "2023-04-20T11:01:46.072138Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--a660bb8a-2d8a-4498-876c-bf1aa712ceb7",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "report",
+            "id": "report--78a3db9a-43d8-46f8-85d8-3c1271ca9863",
+            "created": "2023-04-20T11:01:49.552Z",
+            "modified": "2023-04-20T11:01:49.552Z",
+            "name": "News Item 2",
+            "description": "\n\nCyber Attack Targeted at EnergyCorp Exposes Vulnerabilities Through Phishing. EnergyCorp, a multinational energy corporation, was the target of a malicious cyber attack that exposed numerous vulnerabilities through phishing. .",
+            "published": "2023-04-20T14:01:49.55226Z",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc6634fb-70d1-43de-9254-b63d8d08c908",
+            "created": "2023-04-20T11:01:49.553257Z",
+            "modified": "2023-04-20T11:01:49.553257Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--78a3db9a-43d8-46f8-85d8-3c1271ca9863",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "report",
+            "id": "report--8a7134e0-db09-442e-9789-35079641ad98",
+            "created": "2023-04-20T11:01:56.516Z",
+            "modified": "2023-04-20T11:01:56.516Z",
+            "name": "Email 1",
+            "description": "\n\nFrom: Helpdesk\nTo: CEO\nSubject: Recent Cyber Attack on EnergyCorp\n\nDear CEO,\n\nWe have recently become aware of a targeted cyber attack on EnergyCorp. This attack was likely enabled by exploiting vulnerabilities in our systems, as well as potentially through phishing tactics. We are currently investigating the attack and will provide updates as we learn more.\n\nAt the moment, we have taken measures to secure our systems while the investigation is ongoing. We will keep",
+            "published": "2023-04-20T14:01:56.516438Z",
+            "object_refs": [
+                "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b3b503ea-fd64-4c50-80a4-7185bb3d33e1",
+            "created": "2023-04-20T11:01:56.51748Z",
+            "modified": "2023-04-20T11:01:56.51748Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--8a7134e0-db09-442e-9789-35079641ad98",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--4dddd7d0-df9b-4a1a-86af-26417a540358",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-20T10:59:57.090265Z",
+            "name": "EnergyCorp",
+            "roles": [
+                "ENTERPRISE, BANKING, IT SECTOR"
+            ],
+            "external_references": [
+                {
+                    "source_name": "News Article Source",
+                    "url": "https://www.bleepingcomputer.com/news/security/microsoft-code-sign-check-bypassed-to-drop-zloader-malware/"
+                }
+            ]
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--2dcc8a3a-5d48-42bd-8337-613c94d770d4",
+            "created": "2023-04-20T11:01:56.518473Z",
+            "modified": "2023-04-20T11:01:56.518473Z",
+            "name": "DATA BREACH Mitigation",
+            "description": "Conduct all the appropriate actions in order to mitigate the following attack pattern: DATA BREACH"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9ff72e18-6315-4acd-a83f-f4ff02b2df54",
+            "created": "2023-04-20T11:01:56.519462Z",
+            "modified": "2023-04-20T11:01:56.519462Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--2dcc8a3a-5d48-42bd-8337-613c94d770d4",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bef8bd87-28f9-4acf-8f2e-815766ef010b",
+            "created": "2023-04-20T11:01:56.520466Z",
+            "modified": "2023-04-20T11:01:56.520466Z",
+            "name": "DATA BREACH",
+            "description": "This file is part of DATA BREACH. Download artefact here:http://localhost:8000/STIX/OBJECTLIBRARY/Ex/testexercise/artifacts/DATA BREACH0.zip",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'x_foo_hash' = 'aaaabbbbccccddddeeeeffff0123457890']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2022-01-01T00:00:00Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eee9dd43-82ce-46e3-8b7f-c48c6a9b796e",
+            "created": "2023-04-20T11:01:56.556352Z",
+            "modified": "2023-04-20T11:01:56.556352Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--bef8bd87-28f9-4acf-8f2e-815766ef010b",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--672c9d18-0ed6-4b2a-9f48-874e8ff877e0",
+            "created": "2023-04-20T11:01:56.557344Z",
+            "modified": "2023-04-20T11:01:56.557344Z",
+            "name": "COMPROMISE Mitigation",
+            "description": "Conduct all the appropriate actions in order to mitigate the following attack pattern: COMPROMISE"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--21cb0ca3-d317-420b-bdb1-bbcb0152b265",
+            "created": "2023-04-20T11:01:56.557344Z",
+            "modified": "2023-04-20T11:01:56.557344Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--672c9d18-0ed6-4b2a-9f48-874e8ff877e0",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--814f434e-ce08-45a6-af85-bcc2a1f3bc41",
+            "created": "2023-04-20T11:01:56.557344Z",
+            "modified": "2023-04-20T11:01:56.557344Z",
+            "name": "COMPROMISE",
+            "description": "This file is part of COMPROMISE. Download artefact here:http://localhost:8000/STIX/OBJECTLIBRARY/Ex/testexercise/artifacts/COMPROMISE1.zip",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'x_foo_hash' = 'aaaabbbbccccddddeeeeffff0123457890']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2022-01-01T00:00:00Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e178f70a-c6f5-461b-b882-83af010f8594",
+            "created": "2023-04-20T11:01:56.560337Z",
+            "modified": "2023-04-20T11:01:56.560337Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--814f434e-ce08-45a6-af85-bcc2a1f3bc41",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--6d755cdf-89f5-4367-abe0-3dd4af949972",
+            "created": "2023-04-20T11:01:56.561334Z",
+            "modified": "2023-04-20T11:01:56.561334Z",
+            "name": "TWITTER Forensics",
+            "description": "Conduct all the appropriate actions in order to collect evidence for the following system or infrastructure: TWITTER"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--615469b8-8d0d-4c0e-88e6-b0338e733ccd",
+            "created": "2023-04-20T11:01:56.561334Z",
+            "modified": "2023-04-20T11:01:56.561334Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--6d755cdf-89f5-4367-abe0-3dd4af949972",
+            "target_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--28917d9f-eb44-44d9-8127-a212f33abdeb",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-19T12:13:38.50924Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0",
+            "target_ref": "threat-actor--3deed99f-6859-4386-8e2a-0a28aaacb337"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0df75a8b-374b-40f5-a740-be70e38f2f30",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-19T12:13:38.50924Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "threat-actor--3deed99f-6859-4386-8e2a-0a28aaacb337",
+            "target_ref": "identity--7e3bbdf1-5e27-43f8-b792-2e797f3c4d88"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2455d499-e27c-4034-ac60-d828a54d9ef7",
+            "created": "2023-04-19T12:13:38.50924Z",
+            "modified": "2023-04-19T12:13:38.50924Z",
+            "relationship_type": "targets",
+            "source_ref": "intrusion-set--651f1f5c-f852-4592-9dec-5db521a046f0",
+            "target_ref": "identity--4dddd7d0-df9b-4a1a-86af-26417a540358"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--82f065f0-58e4-4941-9b29-8d87f360d625",
+            "created": "2023-04-19T12:13:38.510237Z",
+            "modified": "2023-04-19T12:13:38.510237Z",
+            "relationship_type": "targets",
+            "source_ref": "threat-actor--3deed99f-6859-4386-8e2a-0a28aaacb337",
+            "target_ref": "identity--4dddd7d0-df9b-4a1a-86af-26417a540358"
+        }
+    ]
+}

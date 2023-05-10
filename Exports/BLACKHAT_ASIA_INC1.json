@@ -1,0 +1,415 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb5a18f4-a826-455a-8f65-7ae904d9d98c",
+    "objects": [
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--4e4d903a-28f3-4624-b1ba-eb5eae2fad5e",
+            "created": "2023-04-19T15:18:23.272243Z",
+            "modified": "2023-04-19T15:18:23.272243Z",
+            "name": "WINDOWS - Forensics Main",
+            "description": "Conduct all the appropriate actions in order to collect evidence for the following system or infrastructure: WINDOWS"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d3e6ef38-1efe-49ad-afb0-bfcdb18eced2",
+            "created": "2023-04-19T15:18:23.272243Z",
+            "modified": "2023-04-19T15:18:23.272243Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--4e4d903a-28f3-4624-b1ba-eb5eae2fad5e",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676",
+            "created": "2023-04-19T14:48:29.297822Z",
+            "modified": "2023-04-19T15:16:01.347606Z",
+            "name": "TURLA",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "DATA, PASSWORD, CRYPTOCURRENCY, USER CREDENTIALS, FILES, WALLET"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676",
+            "created": "2023-04-19T14:48:29.297822Z",
+            "modified": "2023-04-19T15:16:01.347606Z",
+            "name": "TURLA",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "DATA, PASSWORD, CRYPTOCURRENCY, USER CREDENTIALS, FILES, WALLET"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--a08a65d0-442b-4934-b306-2ed0db6fe5b0",
+            "created": "2023-04-19T14:48:29.297822Z",
+            "modified": "2023-04-19T15:15:10.377742Z",
+            "name": "Attacker"
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "created": "2023-04-19T14:48:29.297822Z",
+            "modified": "2023-04-19T15:16:01.347607Z",
+            "name": "BLACKHAT_ASIA_INC1",
+            "description": "A recent cyber security incident involved a malicious actor using the TURLA virus to target Windows Servers. This virus exploited weaknesses in the group user data, as well as credentials stored on the system. By exploiting these weaknesses, the hacker was able to gain access to the system and install ransomware.\n\nVarious techniques were then used in order to gain control of the Windows Servers. These included credentials stealing, use of PowerShell, brute force, as well as scheduled tasks.",
+            "goals": [
+                "DATA, PASSWORD, CRYPTOCURRENCY, USER CREDENTIALS, FILES, WALLET"
+            ]
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--b1d37ba5-83bc-4b3f-8d84-4bfbb43e8fde",
+            "created": "2023-04-19T15:18:23.273511Z",
+            "modified": "2023-04-19T15:18:23.273511Z",
+            "abstract": "Training_Objectives",
+            "content": "CYBER_HYGIENE, INCIDENT_HANDLING",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17fa3b5e-7058-496e-9ab0-27561e76d5a8",
+            "created": "2023-04-19T15:18:23.274255Z",
+            "modified": "2023-04-19T15:18:23.274255Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--b1d37ba5-83bc-4b3f-8d84-4bfbb43e8fde",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--a8e93413-43d2-4cbb-b173-af65f771dbd6",
+            "created": "2023-04-19T15:18:23.27525Z",
+            "modified": "2023-04-19T15:18:23.27525Z",
+            "abstract": "Resources",
+            "content": "['https://www.bleepingcomputer.com/news/security/qnap-warns-of-ech0raix-ransomware-attacks-roon-server-zero-day/', 'https://www.bleepingcomputer.com/news/security/bluenoroff-hackers-steal-crypto-using-fake-metamask-extension/', 'https://www.bleepingcomputer.com/news/security/jenkins-projects-confluence-server-hacked-to-mine-monero/', 'https://www.bleepingcomputer.com/news/security/synology-warns-of-malware-infecting-nas-devices-with-ransomware/', 'https://securityaffairs.co/wordpress/118306/digital-id/kubernetes-clusters-teamtnt.html']",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--41633607-7147-4582-b513-584151d9731c",
+            "created": "2023-04-19T15:18:23.27525Z",
+            "modified": "2023-04-19T15:18:23.27525Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--a8e93413-43d2-4cbb-b173-af65f771dbd6",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "report",
+            "id": "report--7a7402d7-a6df-4bb2-8c27-26479c8e81e1",
+            "created": "2023-04-19T15:18:25.362Z",
+            "modified": "2023-04-19T15:18:25.362Z",
+            "name": "News Item 0",
+            "description": "\n\nEnergyCorp was the latest victim of a Turla group ransomware attack. Sensitive user data and Windows servers were targeted, and credentials were stolen through CVE-2022-1234. Zoho was used to demand ransom to recover the data. #CyberAttack #Ransomware #Zoho",
+            "published": "2023-04-19T18:18:25.362663Z",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1705a3e2-e57b-479a-b165-3b6cd30335de",
+            "created": "2023-04-19T15:18:25.363664Z",
+            "modified": "2023-04-19T15:18:25.363664Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--7a7402d7-a6df-4bb2-8c27-26479c8e81e1",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "report",
+            "id": "report--d37b2123-b77f-4a25-b64f-574406039c83",
+            "created": "2023-04-19T15:18:27.698Z",
+            "modified": "2023-04-19T15:18:27.698Z",
+            "name": "News Item 1",
+            "description": "\n\nEnergyCorp was recently hit with a #cyberattack from a #Turla group that compromised #WindowsServers and stole #userdata. CVE-2022-1234 was exploited to gain #credentials for #ZOHO and a #ransomware was deployed. An organization's worst nightmare!",
+            "published": "2023-04-19T18:18:27.698699Z",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b16be571-3e50-4c33-b244-a6f10a6f9957",
+            "created": "2023-04-19T15:18:27.698699Z",
+            "modified": "2023-04-19T15:18:27.698699Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--d37b2123-b77f-4a25-b64f-574406039c83",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "report",
+            "id": "report--d550a94b-5dd8-4e1f-bbe4-6a1234c9b6cc",
+            "created": "2023-04-19T15:18:30.402Z",
+            "modified": "2023-04-19T15:18:30.402Z",
+            "name": "News Item 2",
+            "description": "\n\n\"Cyber attack group, TURLA, exploits CVE-2022-1234 to steal EnergyCorp user data. Using stolen ZOHO credentials, they breach Windows servers and deploy ransomware to encrypt user data. EnergyCorp is now at the mercy of TURLA's demands for a ransom.",
+            "published": "2023-04-19T18:18:30.402236Z",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--83ad9051-2ac4-41c3-b387-8c4d44521892",
+            "created": "2023-04-19T15:18:30.403234Z",
+            "modified": "2023-04-19T15:18:30.403234Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--d550a94b-5dd8-4e1f-bbe4-6a1234c9b6cc",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "report",
+            "id": "report--ce8b4fb1-d335-4188-8d07-58c0536bba07",
+            "created": "2023-04-19T15:18:34.582Z",
+            "modified": "2023-04-19T15:18:34.582Z",
+            "name": "Email 1",
+            "description": " \n\nEmail 1:\n\nFrom: Helpdesk\nTo: CEO\nSubject: Recent Cyber Attack on EnergyCorp\n\nDear CEO,\n\nI wanted to make you aware of a recent cyber attack on EnergyCorp involving the malicious ransomware, TURLA. The attackers seemed to have targeted our Windows Servers and gained access to user data, group information and credentials. We believe the attack was made through a CVE-2022-1234 vulnerability and suspect ZOHO may",
+            "published": "2023-04-19T18:18:34.582069Z",
+            "object_refs": [
+                "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3b57e985-94c6-4414-a26b-e5e924d75a98",
+            "created": "2023-04-19T15:18:34.583084Z",
+            "modified": "2023-04-19T15:18:34.583084Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--ce8b4fb1-d335-4188-8d07-58c0536bba07",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--32bcbd3d-f9e8-4679-9045-3e47f5e37de7",
+            "created": "2023-04-19T14:48:29.297822Z",
+            "modified": "2023-04-19T15:15:10.378738Z",
+            "name": "EnergyCorp",
+            "roles": [
+                "FINANCIAL, COMPANIES, POINTS"
+            ],
+            "external_references": [
+                {
+                    "source_name": "News Article Source",
+                    "url": "https://www.bleepingcomputer.com/news/security/bluenoroff-hackers-steal-crypto-using-fake-metamask-extension/"
+                }
+            ]
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--5f08e28f-169c-42bc-a051-d9776a6dec08",
+            "created": "2023-04-19T15:18:34.584087Z",
+            "modified": "2023-04-19T15:18:34.584087Z",
+            "name": "CVE-2017-0199 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2017-0199. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2017-0199"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f35d24b-c3e2-479f-aa12-35f62f9ea149",
+            "created": "2023-04-19T15:18:34.585115Z",
+            "modified": "2023-04-19T15:18:34.585115Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "course-of-action--5f08e28f-169c-42bc-a051-d9776a6dec08"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--d6a16cf4-c101-40fd-94a9-0826bd5527c1",
+            "created": "2023-04-19T14:48:29.30282Z",
+            "modified": "2023-04-19T14:48:29.30282Z",
+            "name": "CHINA",
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--e97fb560-5fb0-4f2e-8733-4ba73d4f29c4",
+            "created": "2023-04-19T15:18:34.586089Z",
+            "modified": "2023-04-19T15:18:34.586089Z",
+            "name": "XMRIG Mitigation",
+            "description": "Conduct all the appropriate actions in order to mitigate the following attack pattern: XMRIG"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--36b376f2-d99d-4302-b1cb-ef86c7ea1b7a",
+            "created": "2023-04-19T15:18:34.586089Z",
+            "modified": "2023-04-19T15:18:34.586089Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--e97fb560-5fb0-4f2e-8733-4ba73d4f29c4",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--11b82a61-d77e-456d-89cd-7135c9ad92b6",
+            "created": "2023-04-19T15:18:34.587085Z",
+            "modified": "2023-04-19T15:18:34.587085Z",
+            "name": "XMRIG",
+            "description": "This file is part of XMRIG. Download artefact here:http://localhost:8000/STIX/OBJECTLIBRARY/Ex/testexercise/artifacts/XMRIG0.zip",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'x_foo_hash' = 'aaaabbbbccccddddeeeeffff0123457890']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2022-01-01T00:00:00Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ac0fe9ba-9939-4eca-b2b1-808bb8755fa3",
+            "created": "2023-04-19T15:18:34.600084Z",
+            "modified": "2023-04-19T15:18:34.600084Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--11b82a61-d77e-456d-89cd-7135c9ad92b6",
+            "target_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--c188ff45-c3d0-4d99-896d-27beaac2ad24",
+            "created": "2023-04-19T15:18:34.600084Z",
+            "modified": "2023-04-19T15:18:34.600084Z",
+            "name": "ZERO-DAY Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: ZERO-DAY. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=ZERO-DAY"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a7e5e4b9-65ad-4d06-a88a-a77a3fa24139",
+            "created": "2023-04-19T15:18:34.601086Z",
+            "modified": "2023-04-19T15:18:34.601086Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "course-of-action--c188ff45-c3d0-4d99-896d-27beaac2ad24"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--12d60784-9a50-4ece-b2c2-5b1c7b0461e0",
+            "created": "2023-04-19T15:18:34.601086Z",
+            "modified": "2023-04-19T15:18:34.601086Z",
+            "name": "CVE-2021-26084 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2021-26084. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2021-26084"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f6b3a3e3-1647-4ff8-b40c-9b4df14f4e90",
+            "created": "2023-04-19T15:18:34.601086Z",
+            "modified": "2023-04-19T15:18:34.601086Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "course-of-action--12d60784-9a50-4ece-b2c2-5b1c7b0461e0"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--87d3d589-6ce2-4d67-80de-bb0eb15ef31a",
+            "created": "2023-04-19T15:18:34.602084Z",
+            "modified": "2023-04-19T15:18:34.602084Z",
+            "name": "CVE-2020-3309 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2020-3309. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020-3309"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--65a8b9cd-e331-4767-b568-8e232b716c84",
+            "created": "2023-04-19T15:18:34.602084Z",
+            "modified": "2023-04-19T15:18:34.602084Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "course-of-action--87d3d589-6ce2-4d67-80de-bb0eb15ef31a"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--04250639-829c-4e7b-804d-e4eb711bdf73",
+            "created": "2023-04-19T14:48:29.298818Z",
+            "modified": "2023-04-19T14:48:29.298818Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--138461d9-c978-4ff4-a07f-9e90f9c0e65c",
+            "created": "2023-04-19T14:48:29.298818Z",
+            "modified": "2023-04-19T14:48:29.298818Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676",
+            "target_ref": "identity--a08a65d0-442b-4934-b306-2ed0db6fe5b0"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--98af9970-b7db-4593-98fe-e2d4ff3fa701",
+            "created": "2023-04-19T14:48:29.298818Z",
+            "modified": "2023-04-19T14:48:29.298818Z",
+            "relationship_type": "targets",
+            "source_ref": "intrusion-set--c03fa2e3-b421-4916-91e1-95c9cd2a1703",
+            "target_ref": "identity--32bcbd3d-f9e8-4679-9045-3e47f5e37de7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--59a41e19-f686-4f2a-9585-8f0118a7de56",
+            "created": "2023-04-19T14:48:29.298818Z",
+            "modified": "2023-04-19T14:48:29.298818Z",
+            "relationship_type": "targets",
+            "source_ref": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676",
+            "target_ref": "identity--32bcbd3d-f9e8-4679-9045-3e47f5e37de7"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cf34db27-9356-44d7-88aa-a6b80820c57f",
+            "created": "2023-04-19T14:48:29.30282Z",
+            "modified": "2023-04-19T14:48:29.30282Z",
+            "relationship_type": "located-at",
+            "source_ref": "threat-actor--8c3a5475-76eb-470a-8953-b364fef84676",
+            "target_ref": "location--d6a16cf4-c101-40fd-94a9-0826bd5527c1"
+        }
+    ]
+}

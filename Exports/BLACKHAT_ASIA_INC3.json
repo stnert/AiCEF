@@ -1,0 +1,423 @@
+{
+    "type": "bundle",
+    "id": "bundle--fee1d424-eabd-4708-b6b0-e234ff9ac816",
+    "objects": [
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.69561Z",
+            "name": "Attacker",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER ACCOUNTS, INFORMATION, PERSONAL INFORMATION, PASSWORD, BITCOIN, EMAIL, INFRASTRUCTURE, CREDENTIALS, PASSWORDS"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.69561Z",
+            "name": "Attacker",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER ACCOUNTS, INFORMATION, PERSONAL INFORMATION, PASSWORD, BITCOIN, EMAIL, INFRASTRUCTURE, CREDENTIALS, PASSWORDS"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.69561Z",
+            "name": "Attacker",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER ACCOUNTS, INFORMATION, PERSONAL INFORMATION, PASSWORD, BITCOIN, EMAIL, INFRASTRUCTURE, CREDENTIALS, PASSWORDS"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.69561Z",
+            "name": "Attacker",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "goals": [
+                "USER ACCOUNTS, INFORMATION, PERSONAL INFORMATION, PASSWORD, BITCOIN, EMAIL, INFRASTRUCTURE, CREDENTIALS, PASSWORDS"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--14abc8b6-392a-45df-a51f-8e3709bd0086",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.696607Z",
+            "name": "Attacker"
+        },
+        {
+            "type": "intrusion-set",
+            "spec_version": "2.1",
+            "id": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:05:04.429032Z",
+            "name": "BLACKHAT_ASIA_INC3",
+            "description": "\nRecently, a cyber security incident resulted in the leak of sensitive data and personal information. Attackers used emails and malicious files to access data stored on the system. They then used MetaTags like DISINFORMATION, PPI and CREDENTIALS to exploit system vulnerabilities. \nThe attackers used a variety of techniques to infiltrate the system, such as a web shell, credentials masquerading, malicious domains and proxies.",
+            "goals": [
+                "USER ACCOUNTS, INFORMATION, PERSONAL INFORMATION, PASSWORD, BITCOIN, EMAIL, INFRASTRUCTURE, CREDENTIALS, PASSWORDS"
+            ]
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--9b0fb542-cf51-44ee-9ae4-0ba91ba69f45",
+            "created": "2023-04-20T11:04:13.219731Z",
+            "modified": "2023-04-20T11:04:13.219731Z",
+            "abstract": "Training_Objectives",
+            "content": "CYBER_HYGIENE, GDPR",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dbc4660c-c017-4df3-ba96-b7b302932f8a",
+            "created": "2023-04-20T11:04:13.220722Z",
+            "modified": "2023-04-20T11:04:13.220722Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--9b0fb542-cf51-44ee-9ae4-0ba91ba69f45",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--9e16f79c-59d5-4207-87ea-7e86dfe485d2",
+            "created": "2023-04-20T11:04:13.220722Z",
+            "modified": "2023-04-20T11:04:13.220722Z",
+            "abstract": "Resources",
+            "content": "['https://www.bleepingcomputer.com/news/security/govt-hackers-impersonate-hr-employees-to-hit-israeli-targets/', 'https://www.zdnet.com/article/ransomware-warning-hackers-are-using-log4j-flaw-as-part-of-their-attacks-warns-microsoft/', 'https://www.zdnet.com/article/cisa-warns-of-apt-actors-exploiting-newly-identified-vulnerability-in-manageengine-adselfservice-plus/', 'https://www.bleepingcomputer.com/news/security/phishing-attacks-use-qr-codes-to-steal-banking-credentials/', 'https://securityaffairs.co/wordpress/118306/digital-id/kubernetes-clusters-teamtnt.html', 'https://www.zdnet.com/article/microsoft-warns-of-current-nobelium-phishing-campaign-impersonating-usaid/', 'https://www.bleepingcomputer.com/news/security/new-cring-ransomware-hits-unpatched-fortinet-vpn-devices/', 'https://www.bleepingcomputer.com/news/security/jenkins-projects-confluence-server-hacked-to-mine-monero/', 'https://www.bleepingcomputer.com/news/security/synology-warns-of-malware-infecting-nas-devices-with-ransomware/']",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f9217b2c-6327-49d3-baf8-e97bd50226af",
+            "created": "2023-04-20T11:04:13.221729Z",
+            "modified": "2023-04-20T11:04:13.221729Z",
+            "relationship_type": "related-to",
+            "source_ref": "note--9e16f79c-59d5-4207-87ea-7e86dfe485d2",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "report",
+            "id": "report--92684e47-796c-4f09-935d-3b32972006a8",
+            "created": "2023-04-20T11:04:17.010Z",
+            "modified": "2023-04-20T11:04:17.010Z",
+            "name": "News Item 0",
+            "description": "\n\n#EnergyCorp was the victim of a #cyberattack that included emails, #disinformation, and the release of personal data, #PPI, and sensitive credentials. Attackers have gained access to sensitive information and must be stopped! #databreach #security",
+            "published": "2023-04-20T14:04:17.010025Z",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f7679896-e2e4-42e9-a76c-4f1114b96f1c",
+            "created": "2023-04-20T11:04:17.011024Z",
+            "modified": "2023-04-20T11:04:17.011024Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--92684e47-796c-4f09-935d-3b32972006a8",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "report",
+            "id": "report--5fbdf91a-62dc-441f-bc03-1608ddd4f4e1",
+            "created": "2023-04-20T11:04:19.366Z",
+            "modified": "2023-04-20T11:04:19.366Z",
+            "name": "News Item 1",
+            "description": "\n\nEnergyCorp was the victim of a cyber attack where their personal data, credentials, and sensitive information were compromised. Attackers attempted to spread disinformation by taking and selling consumer PPI, leaving emails vulnerable to further attacks. #CyberAttack",
+            "published": "2023-04-20T14:04:19.366461Z",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--98fcc649-26ae-4c65-a900-4b6518da5e14",
+            "created": "2023-04-20T11:04:19.367465Z",
+            "modified": "2023-04-20T11:04:19.367465Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--5fbdf91a-62dc-441f-bc03-1608ddd4f4e1",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "report",
+            "id": "report--41b7bf51-85e7-49d1-a7bd-d96b1c029904",
+            "created": "2023-04-20T11:04:24.179Z",
+            "modified": "2023-04-20T11:04:24.179Z",
+            "name": "News Item 2",
+            "description": "\n\n\"EnergyCorp, the US energy provider, has become the latest victim of a sophisticated cyber attack targeting emails, personal data, and sensitive credentials. Attackers used a sophisticated network of disinformation to steal personal information and potentially protected data such as PPI. The full extent of the attack is still under investigation, but EnergyCorp has warned customers to be aware of this new threat. .",
+            "published": "2023-04-20T14:04:24.17959Z",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3d80a1c8-163d-4d4b-85d6-7ffcadc3f938",
+            "created": "2023-04-20T11:04:24.180545Z",
+            "modified": "2023-04-20T11:04:24.180545Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--41b7bf51-85e7-49d1-a7bd-d96b1c029904",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "report",
+            "id": "report--2a50ff65-6a05-4a23-8c39-1e88e0553180",
+            "created": "2023-04-20T11:04:30.527Z",
+            "modified": "2023-04-20T11:04:30.527Z",
+            "name": "Email 1",
+            "description": "\n\nEMAIL1\nFrom: Helpdesk\nTo: ICT\nSubject: Cyber attack at EnergyCorp\n\nDear ICT,\n\nWe have received reports of a recent cyber attack against EnergyCorp. The attack involved the unauthorized access and retrieval of sensitive data, such as emails and personal data, as well as credentials, such as PPI and other usernames and passwords.\n\nAs we work to identify the attackers and secure our systems, it is imperative that we",
+            "published": "2023-04-20T14:04:30.527856Z",
+            "object_refs": [
+                "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+            ],
+            "labels": [
+                ""
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9e31befc-ea3e-4d8c-bafb-f4d79a14f52d",
+            "created": "2023-04-20T11:04:30.528857Z",
+            "modified": "2023-04-20T11:04:30.528857Z",
+            "relationship_type": "related-to",
+            "source_ref": "report--2a50ff65-6a05-4a23-8c39-1e88e0553180",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--898adce6-e915-4a56-ac55-0f648490eadd",
+            "created": "2023-04-19T12:16:26.480352Z",
+            "modified": "2023-04-20T11:03:20.698602Z",
+            "name": "EnergyCorp",
+            "roles": [
+                ""
+            ],
+            "external_references": [
+                {
+                    "source_name": "News Article Source",
+                    "url": "https://www.bleepingcomputer.com/news/security/synology-warns-of-malware-infecting-nas-devices-with-ransomware/"
+                }
+            ]
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--1dc3282f-d9da-4388-a12c-7d591d90b752",
+            "created": "2023-04-20T11:04:30.529855Z",
+            "modified": "2023-04-20T11:04:30.529855Z",
+            "name": "STEALTHWORKER Mitigation",
+            "description": "Conduct all the appropriate actions in order to mitigate the following attack pattern: STEALTHWORKER"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--34ee973a-02ab-4c4c-b4e7-61b8a1942250",
+            "created": "2023-04-20T11:04:30.529855Z",
+            "modified": "2023-04-20T11:04:30.529855Z",
+            "relationship_type": "mitigates",
+            "source_ref": "course-of-action--1dc3282f-d9da-4388-a12c-7d591d90b752",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--3f2e1c47-7e09-4ed0-9a8f-2cc1c54d3670",
+            "created": "2023-04-20T11:04:30.530862Z",
+            "modified": "2023-04-20T11:04:30.530862Z",
+            "name": "STEALTHWORKER",
+            "description": "This file is part of STEALTHWORKER. Download artefact here:http://localhost:8000/STIX/OBJECTLIBRARY/Ex/testexercise/artifacts/STEALTHWORKER0.zip",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'x_foo_hash' = 'aaaabbbbccccddddeeeeffff0123457890']",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2022-01-01T00:00:00Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--faf3b99a-41d5-4220-9100-9c462366fd89",
+            "created": "2023-04-20T11:04:30.53584Z",
+            "modified": "2023-04-20T11:04:30.53584Z",
+            "relationship_type": "indicates",
+            "source_ref": "indicator--3f2e1c47-7e09-4ed0-9a8f-2cc1c54d3670",
+            "target_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--1876a312-500b-46a3-9472-1a345cff41e8",
+            "created": "2023-04-20T11:04:30.536834Z",
+            "modified": "2023-04-20T11:04:30.536834Z",
+            "name": "CVE-2021-26084 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2021-26084. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2021-26084"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ebcef4fc-a96a-4a6f-9b70-f4e4f363e133",
+            "created": "2023-04-20T11:04:30.536834Z",
+            "modified": "2023-04-20T11:04:30.536834Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "course-of-action--1876a312-500b-46a3-9472-1a345cff41e8"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--d3578126-6796-4134-bda0-0907ed00b684",
+            "created": "2023-04-20T11:04:30.538334Z",
+            "modified": "2023-04-20T11:04:30.538334Z",
+            "name": "CVE-2021-44228 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2021-44228. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2021-44228"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--31c4fd5f-8df2-468b-ac95-428e6dccb30e",
+            "created": "2023-04-20T11:04:30.538839Z",
+            "modified": "2023-04-20T11:04:30.538839Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "course-of-action--d3578126-6796-4134-bda0-0907ed00b684"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--646b45ae-c154-47b5-95d4-f76943563ab5",
+            "created": "2023-04-20T11:04:30.539785Z",
+            "modified": "2023-04-20T11:04:30.539785Z",
+            "name": "CVE-2018-13379 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2018-13379. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2018-13379"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91fc4d57-9751-4e01-8d9a-de93ea998552",
+            "created": "2023-04-20T11:04:30.540782Z",
+            "modified": "2023-04-20T11:04:30.540782Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "course-of-action--646b45ae-c154-47b5-95d4-f76943563ab5"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--a8d0a888-6707-4af2-8298-d6854d40fb5d",
+            "created": "2023-04-20T11:04:30.541819Z",
+            "modified": "2023-04-20T11:04:30.541819Z",
+            "name": "CVE-2019-5591 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2019-5591. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2019-5591"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--413e8936-e745-4130-a4ee-d873b71643de",
+            "created": "2023-04-20T11:04:30.541819Z",
+            "modified": "2023-04-20T11:04:30.541819Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "course-of-action--a8d0a888-6707-4af2-8298-d6854d40fb5d"
+        },
+        {
+            "type": "course-of-action",
+            "spec_version": "2.1",
+            "id": "course-of-action--534801f2-7b5e-4aa6-a5e2-6c8adbf3a4c2",
+            "created": "2023-04-20T11:04:30.542818Z",
+            "modified": "2023-04-20T11:04:30.542818Z",
+            "name": "CVE-2020-12812 Vulnerability Used",
+            "description": "Research and collect evidence for the following Vulnerability: CVE-2020-12812. More info here: https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2020-12812"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--388ea17e-a23a-476d-982a-e8ddab91de57",
+            "created": "2023-04-20T11:04:30.542818Z",
+            "modified": "2023-04-20T11:04:30.542818Z",
+            "relationship_type": "exploits",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "course-of-action--534801f2-7b5e-4aa6-a5e2-6c8adbf3a4c2"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--651e0631-828f-4546-83ae-a9c4af39a770",
+            "created": "2023-04-19T12:16:26.481349Z",
+            "modified": "2023-04-19T12:16:26.481349Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--95a1b69d-8ea1-485e-a83f-57419d24c811",
+            "created": "2023-04-19T12:16:26.481349Z",
+            "modified": "2023-04-19T12:16:26.481349Z",
+            "relationship_type": "attributed-to",
+            "source_ref": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "target_ref": "identity--14abc8b6-392a-45df-a51f-8e3709bd0086"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--59e1d8f0-2056-4cc1-a11e-43a10216b2f5",
+            "created": "2023-04-19T12:16:26.481349Z",
+            "modified": "2023-04-19T12:16:26.481349Z",
+            "relationship_type": "targets",
+            "source_ref": "intrusion-set--040ef41b-dc59-4e0d-9250-ae6eb8a7aca0",
+            "target_ref": "identity--898adce6-e915-4a56-ac55-0f648490eadd"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a196c6ff-572c-4c26-8378-04d3100ecb58",
+            "created": "2023-04-19T12:16:26.481349Z",
+            "modified": "2023-04-19T12:16:26.481349Z",
+            "relationship_type": "targets",
+            "source_ref": "threat-actor--aef14e61-89d9-4247-86f5-395a61adf696",
+            "target_ref": "identity--898adce6-e915-4a56-ac55-0f648490eadd"
+        }
+    ]
+}
