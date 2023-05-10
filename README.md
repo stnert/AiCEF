@@ -73,7 +73,9 @@ MLCESO is a crucial step in the methodology where dedicated ML models are traine
 The Incident Generation & Enhancer (IncGen) workflow can be automated, generating a variety of incidents based on filtering parameters and the existing database. The knowledge database (KDB) consists of almost 3000 articles classified into six categories that can be augmented using APT Enhancer by using the activity of known APT groups from MITRE or manually.
 
 Here some sample usage screenshots:
+![Alt Text](./Usage/Screen1.png)
 
+![Alt Text](./Usage/Screen2.png)
 
 ## Features
 
