@@ -4,7 +4,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
-AiCEF v2.0 is a tool implementing the accompanying framework [1] in order to harness the intelligence that is available from online resources, as well as threat groups' activities, arsenal (eg. MITRE), to create relevant and timely cybersecurity exercise content. This way, we abstract the events from the reports in a machine-readable form. The produced graphs can be infused with additional intelligence, e.g. the threat actor profile from MITRE, also mapped in our ontology. While this may fill gaps that would be missing from a report, one can also manipulate the graph to create custom and unique models. Finally, we exploit transformer-based language models like GPT to convert the graph into text that can serve as the scenario of a cybersecurity exercise. 
+AiCEF is a tool implementing the accompanying framework [1] in order to harness the intelligence that is available from online resources, as well as threat groups' activities, arsenal (eg. MITRE), to create relevant and timely cybersecurity exercise content. This way, we abstract the events from the reports in a machine-readable form. The produced graphs can be infused with additional intelligence, e.g. the threat actor profile from MITRE, also mapped in our ontology. While this may fill gaps that would be missing from a report, one can also manipulate the graph to create custom and unique models. Finally, we exploit transformer-based language models like GPT to convert the graph into text that can serve as the scenario of a cybersecurity exercise. 
 We have tested and validated AiCEF with a group of experts in cybersecurity exercises, and the results clearly show that AiCEF significantly augments the capabilities in creating timely and relevant cybersecurity exercises in terms of both quality and time.
 
 We used Python to create a machine-learning-powered Exercise Generation Framework and developed a set of tools to perform a set of individual tasks which would help an exercise planner (EP) to create a timely and targeted Cybersecurity Exercise Scenario, regardless of her experience. 
@@ -105,7 +105,7 @@ Contributions are welcome! If you'd like to contribute to AiCEF v2.0, please fol
 5. Open a new pull request
 
 ## License
-AiCEF v2.0 is licensed under Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. [See](https://creativecommons.org/licenses/by-nc/4.0/) for more information.
+AiCEF is licensed under Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. [See](https://creativecommons.org/licenses/by-nc/4.0/) for more information.
 
 Under the following terms:
 
