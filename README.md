@@ -1,6 +1,5 @@
 # AiCEF
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
 
@@ -86,8 +85,8 @@ Find below some sample usage screenshots:
 ## Features
 
 - An AI-powered Cyber Exercise Generation Framework
-- Developed in Python & EEL (https://github.com/python-eel/Eel)
-- Open source library Stixview (https://github.com/traut/stixview)
+- Developed in Python & [EEL](https://github.com/python-eel/Eel)
+- Open source library [Stixview](https://github.com/traut/stixview)
 - Stores data in MYSQL
 - API to Text Synthesis Models (ex. GPT-3.5) 
 - Can create incidents based on TTPs of 125 known APT actors
